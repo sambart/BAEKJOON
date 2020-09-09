@@ -10,4 +10,10 @@ int main()
 	ios_base::sync_with_stdio(0);
 	cin.tie(0);
 
+	int i = 0;
+	cin >> i;
+	if ((i % 2) == 0)
+		cout << "odd";
+	else
+		cout << "even";
 }
